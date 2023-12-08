@@ -11,7 +11,7 @@ server.listen(process.env.PORT || 3000, () => {
 
 var Players = [];
 var ClientID = 0;
-var VERSION = "1.0"
+var VERSION = "1.1"
 
 function stateUpdate()
 {
