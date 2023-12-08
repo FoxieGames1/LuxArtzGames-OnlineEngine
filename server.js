@@ -3,7 +3,11 @@
 const WebSocketServer = require('ws');
 
 // Creating a new websocket server
-const wss = new WebSocketServer.Server({ port: 3000 })
+const wss = new WebSocketServer.Server({ port: process.env.PORT || 3000})
+
+server.listen(process.env.PORT || 3000, () => {
+   console.log(`WebSocket server listening on port ${process.env.PORT || 3000}`);
+})
 
 var Players = [];
 var ClientID = 0;
