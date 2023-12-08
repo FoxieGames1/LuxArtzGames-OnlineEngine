@@ -7,6 +7,7 @@ const wss = new WebSocketServer.Server({ port: 3000 })
 
 var Players = [];
 var ClientID = 0;
+var VERSION = "1.0"
 
 function stateUpdate()
 {
