@@ -64,4 +64,4 @@ and that's it your server now is 24/7 if you followed my tutorial steps.
 */
 
 Socket = network_create_socket(network_socket_wss);
-network_connect_raw_async(Socket, "luxartzgames-onlineengine-fd95af2d3315.herokuapp.com", 443)
+network_connect_raw_async(Socket, "your-server-IDOfTheServer.herokuapp.com", 443)
