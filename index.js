@@ -52,8 +52,6 @@ wss.on("connection", ws => {
 
     //when the client sends us a message
     ws.on("message", data => {
-        console.log(`Client has sent us: ${data}`);
-
         var RealData = JSON.parse(data);
         var EventName = RealData.EventName;
 
