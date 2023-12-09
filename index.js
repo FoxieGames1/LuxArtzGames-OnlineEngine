@@ -26,6 +26,7 @@ function stateUpdate()
             //You can delete this in case the player doesnt have an tail in game
             ImgSpeedTail: Players[i].ImgSpeedTail,
             ImgIndexTail: Players[i].ImgIndexTail,
+            SpriteTail: Players[i].SpriteTail,
             
             EventName : "StateUpdate",
         }
@@ -72,6 +73,7 @@ wss.on("connection", ws => {
                     //You can delete this in case the player doesnt have an tail in game
                     ImgSpeedTail: 0,
                     ImgIndexTail: 0,
+                    SpriteTail: 0,
                     
                     Name: RealData.Name,
                     SocketObject: ws,
@@ -106,6 +108,7 @@ wss.on("connection", ws => {
                         //You can delete this in case the player doesnt have an tail in game
                         Players[i].ImgIndexTail = RealData.ImgIndexTail;
                         Players[i].ImgSpeedTail = RealData.ImgSpeedTail;
+                        Players[i].SpriteTail = RealData.SpriteTail;
                     }
                 }
             break;

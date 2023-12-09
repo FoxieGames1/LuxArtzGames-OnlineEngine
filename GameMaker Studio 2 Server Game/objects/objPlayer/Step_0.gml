@@ -174,6 +174,7 @@ data[? "YScale"] = YS
 //You can delete this in case the player doesnt have an tail in game
 data[? "ImgIndexTail"] = ImageIndex
 data[? "ImgSpeedTail"] = ImageSpeed
+data[? "SpriteTail"] = SpriteTail
 
 buffer_write(Buffer, buffer_text, json_encode(data));
 network_send_raw(Socket, Buffer, buffer_tell(Buffer));

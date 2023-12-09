@@ -38,6 +38,7 @@ switch(async_load[? "type"])
 				//You can delete this in case the player doesnt have an tail in game
 				var OtherImgIndexTail = real(RealData[? "ImgIndexTail"]);
 				var OtherImgSpeedTail = real(RealData[? "ImgSpeedTail"]);
+				var OtherSpriteTail = real(RealData[? "SpriteTail"]);
 				
 				var Found = false
 				with(objOtherPlayer)
