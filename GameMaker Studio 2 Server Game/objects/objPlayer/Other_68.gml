@@ -32,6 +32,8 @@ switch(async_load[? "type"])
 				var OtherSprite = real(RealData[? "Sprite"]);
 				var OtherImgIndex = real(RealData[? "ImgIndex"]);
 				var OtherImgSpeed = real(RealData[? "ImgSpeed"]);
+				var OtherXScale = real(RealData[? "XScale"]);
+				var OtherYScale = real(RealData[? "YScale"]);
 				
 				//You can delete this in case the player doesnt have an tail in game
 				var OtherImgIndexTail = real(RealData[? "ImgIndexTail"]);
@@ -48,6 +50,8 @@ switch(async_load[? "type"])
 						sprite_index = OtherSprite
 						image_index = OtherImgIndex;
 						image_speed = OtherImgSpeed;
+						XS = OtherXScale
+						YS = OtherYScale
 						
 						//You can delete this in case the player doesnt have an tail in game
 						ImageIndex = OtherImgIndexTail;

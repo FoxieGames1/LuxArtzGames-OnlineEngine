@@ -18,9 +18,10 @@ function stateUpdate()
             y : Players[i].y,
             name : Players[i].Name,
             Sprite: Players[i].Sprite,
-
             ImgSpeed: Players[i].ImgSpeed,
             ImgIndex: Players[i].ImgIndex,
+            XScale: Players[i].XScale,
+            YScale: Players[i].YScale,
 
             //You can delete this in case the player doesnt have an tail in game
             ImgSpeedTail: Players[i].ImgSpeedTail,
@@ -63,9 +64,11 @@ wss.on("connection", ws => {
                     x: 0,
                     y: 0,
                     Sprite: 0,
-
                     ImgSpeed: 0,
                     ImgIndex: 0,
+                    XScale: 0,
+                    YScale: 0,
+
                     //You can delete this in case the player doesnt have an tail in game
                     ImgSpeedTail: 0,
                     ImgIndexTail: 0,
@@ -95,9 +98,10 @@ wss.on("connection", ws => {
                         Players[i].x = RealData.x;
                         Players[i].y = RealData.y;
                         Players[i].Sprite = RealData.Sprite;
-
                         Players[i].ImgIndex = RealData.ImgIndex;
                         Players[i].ImgSpeed = RealData.ImgSpeed;
+                        Players[i].XScale = RealData.XScale;
+                        Players[i].YScale = RealData.YScale;
 
                         //You can delete this in case the player doesnt have an tail in game
                         Players[i].ImgIndexTail = RealData.ImgIndexTail;

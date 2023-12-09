@@ -8,3 +8,6 @@ image_index = 0;
 ImageIndex = 0;
 ImageSpeed = 0.1;
 SpriteTail = sprFoxieTailIdle
+
+XS = 0;
+YS = 0;

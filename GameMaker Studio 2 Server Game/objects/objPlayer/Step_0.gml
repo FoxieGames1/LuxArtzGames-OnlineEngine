@@ -168,6 +168,8 @@ data[? "y"] = y
 data[? "Sprite"] = sprite_index
 data[? "ImgIndex"] = image_index
 data[? "ImgSpeed"] = image_speed
+data[? "XScale"] = XS
+data[? "YScale"] = YS
 
 //You can delete this in case the player doesnt have an tail in game
 data[? "ImgIndexTail"] = ImageIndex
