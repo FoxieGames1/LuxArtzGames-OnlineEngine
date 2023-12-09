@@ -57,6 +57,7 @@ switch(async_load[? "type"])
 						//You can delete this in case the player doesnt have an tail in game
 						ImageIndex = OtherImgIndexTail;
 						ImageSpeed = OtherImgSpeedTail;
+						SpriteTail = OtherSpriteTail;
 					}
 				}
 				
