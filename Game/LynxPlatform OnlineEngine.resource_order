@@ -1,0 +1,21 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Conjuntos de casillas","order":5,"path":"folders/Conjuntos de casillas.yy",},
+    {"name":"Curvas de animación","order":6,"path":"folders/Curvas de animación.yy",},
+    {"name":"Fuentes","order":7,"path":"folders/Fuentes.yy",},
+    {"name":"Input","order":17,"path":"folders/Input.yy",},
+    {"name":"Líneas temporales","order":9,"path":"folders/Líneas temporales.yy",},
+    {"name":"Notas","order":11,"path":"folders/Notas.yy",},
+    {"name":"Objetos","order":8,"path":"folders/Objetos.yy",},
+    {"name":"Rutas","order":12,"path":"folders/Rutas.yy",},
+    {"name":"Salas","order":10,"path":"folders/Salas.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Shaders","order":3,"path":"folders/Shaders.yy",},
+    {"name":"Sonidos","order":2,"path":"folders/Sonidos.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"objOtherPlayer","order":1,"path":"objects/objOtherPlayer/objOtherPlayer.yy",},
+    {"name":"draw_text_shadow","order":1,"path":"scripts/draw_text_shadow/draw_text_shadow.yy",},
+  ],
+}
