@@ -80,5 +80,6 @@ switch(async_load[? "type"])
 				}
 			break;
 		}
+		ds_map_destroy(RealData);
 	break;
 }
